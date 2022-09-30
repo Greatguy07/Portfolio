@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+main{
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    margin-top: 27px;
+    display: flex;
+    justify-content: right;
+    height: 60px;
+    justify-content: right;
+    box-shadow: 0.2px 0px 5pxpx black;
+    
+
+}
+
+.nav-box{
+display: flex;
+width: 300px;
+height: 100%;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+
+}
+.nav-box li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+li:hover{
+    text-decoration:underline blue;
+
+}
+
+h1{
+    margin-top: 80px;
+    margin-left: 148px;
+    font-size: 44px;
+    font-style: Bold;
+    font-weight: 900;
+    width: 156px;
+    height: 69px;
+    line-height: 60px;
+
+}
+
+main{
+    border: 200px;
+    background-color: #FFFFFF;
+}
+.one{
+    width: 720px;
+    display: flex;  
+    margin: 90px auto;
+    margin-left: 148px;
+    height: 250px;
+    border-bottom: 2px solid #e0e0e0;
+
+}
+
+.img-div{
+    margin-top: 10px;
+    width: 255px;
+    height: 200px;
+    border-radius: 6px;
+
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.pdiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+.focus{
+    width: 400px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44.06px;
+    margin-bottom: 16px;
+
+}
+
+
+
+.span-div{
+
+}
+
+.spn{
+    background-color: #142850;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.span-right{
+    margin-left: 26px;
+    font-size: 20px;
+    line-height: 29.38px;
+    font-weight: 400;
+    color: #8695a4;
+
+}
+
+.para{
+    margin-top: 10px;
+    height: 95px;
+    width: 430px;
+    font-size: 16px;
+    line-height: 23.5px;
+    font-weight: 400;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+
+}
+.mercy{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    margin-top: 80px;
+    margin: 0 auto;
+
+}
+.foot-1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.gee{
+    height: 182px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    ;
+}
+
+.foot-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
