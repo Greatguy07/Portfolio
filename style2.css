@@ -12,12 +12,12 @@ main{
 }
 
 header{
-    margin-top: 27px;
+    margin-top: 0px;
     display: flex;
     justify-content: right;
     height: 60px;
     justify-content: right;
-    box-shadow: 0.2px 0px 5pxpx black;
+    box-shadow: 0.2px 2px 11px black;
     
 
 }
@@ -37,6 +37,10 @@ position: relative;
     font-weight: 500;
     font-size: 17px;
 }
+li > a{
+    text-decoration: none;
+
+}
 
 li:hover{
     text-decoration:underline blue;
@@ -45,7 +49,7 @@ li:hover{
 
 h1{
     margin-top: 80px;
-    margin-left: 148px;
+    margin-left: 300px;
     font-size: 44px;
     font-style: Bold;
     font-weight: 900;
@@ -56,16 +60,14 @@ h1{
 }
 
 main{
-    border: 200px;
     background-color: #FFFFFF;
 }
 .one{
     width: 720px;
     display: flex;  
-    margin: 90px auto;
-    margin-left: 148px;
+    margin: 15px auto;
+    /* margin-left: 148px; */
     height: 250px;
-    border-bottom: 2px solid #e0e0e0;
 
 }
 
@@ -85,20 +87,27 @@ h2{
     display: flex;
     flex-direction: column;
     margin-left: 18px;
+    height: 200px;
 }
 .focus{
+    /* border: 1px solid ; */
     width: 400px;
     height: 44px;
     font-weight: 700;
     font-size: 30px;
     line-height: 44.06px;
-    margin-bottom: 16px;
+    margin-bottom: 1px;
+    padding-bottom: 10px;
 
 }
 
 
 
 .span-div{
+    height: 45px;
+    margin-bottom: 20px;
+    padding-bottom: ;
+
 
 }
 
@@ -106,9 +115,11 @@ h2{
     background-color: #142850;
     border-radius: 10px;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 0px;
     font-weight: 900;
     color: #FFFFFF;
+    padding:  5px 5px;
+    height: 20px;
 }
 
 .span-right{
@@ -121,12 +132,15 @@ h2{
 }
 
 .para{
-    margin-top: 10px;
-    height: 95px;
+    margin-top: 5px;
+    height: 96px;
     width: 430px;
     font-size: 16px;
-    line-height: 23.5px;
+    line-height: 18px;
     font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 

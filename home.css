@@ -45,6 +45,15 @@ position: relative;
     font-weight: 500;
     font-size: 17px;
 }
+
+li:hover{
+    text-decoration:underline blue;
+
+}
+li >a{
+    text-decoration: none;
+}
+
 .banner{
     margin-left: 140px;
     padding: 10px;
